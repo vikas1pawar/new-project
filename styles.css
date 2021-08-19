@@ -1,0 +1,157 @@
+.bgBottom{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#leftSide{
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 30%;
+
+  font-family: 'Spartan', sans-serif;
+}
+h1{
+  color: #5b255b;
+}
+h6{
+  color: #a6a6a6;
+}
+#rightSide{
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  width: 30%;
+
+}
+.rated{
+  width: 250px;
+}
+
+.row{
+  color: #5b255b;
+  border-radius: 15px;
+  background-color: hsl(300, 24%, 96%);
+  margin: 10px 0;
+  padding-top: 10px;
+  width: 370px;
+  font-weight: bold;
+}
+.row2{
+  position: relative;
+  left: 30px;
+}
+
+.row3{
+  position: relative;
+  left: 60px;
+}
+
+.containerImg{
+ border-radius:100%;
+ height: 40px;
+
+}
+.ver{
+  color:#b847b8;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+.irene{
+  position: relative;
+  right: 100px;
+}
+.put{
+  color:#a6a6a6;
+}
+
+/* coulumn bottom container */
+.name{
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  width: 60%;
+  padding-left: 60px;
+  position: relative;
+  bottom: 36px;
+}
+
+.col-lg-12{
+  color: hsl(300, 24%, 96%);
+  line-height: 1.8;
+}
+
+.row4{
+  background-color: #5b255b;
+  border-radius: 15px;
+  margin: 10px 0;
+  padding: 23px;
+  width: 370px;
+  height: 240px;
+}
+
+
+
+
+/* coulumn bottom container */
+@media (max-width:1000px) {
+  #leftSide{
+    position: relative;
+    left:0;
+    width: 50%;
+
+    margin: 3% auto;
+  }
+
+
+  #rightSide{
+    position: relative;
+    right: 0;
+    margin: 10% auto;
+    width: 380px;
+  }
+.row4{
+  width: 370px;
+}
+
+
+  .col{
+    text-align: -webkit-center;
+  }
+  .row{
+    margin-bottom: 30px;
+  }
+  .container{
+    width: 370px !important;
+  }
+
+  .row2{
+    position: relative;
+    left: 0;
+  }
+  .row3{
+    position: relative;
+    left: 0;
+  }
+
+
+}
+/* ------------media */
+@media (min-width:1000px) {
+  .bottom1{
+      position: relative;
+      top: 150px;
+      left: 60px;
+  }
+
+  .bottom2{
+      position: relative;
+      left: 460px;
+      bottom: 80px;
+  }
+  .bottom3{
+      position: relative;
+      left: 860px;
+      bottom: 310px;
+  }
+
+}
